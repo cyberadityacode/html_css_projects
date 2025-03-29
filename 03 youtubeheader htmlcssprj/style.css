@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: cursive;
+}
+
+.hashtag-header {
+  /* padding: 4rem; */
+  padding: 8vw 4vw;
+  color: white;
+  background-color: #065fd4;
+  background-image: url("background.png");
+  background-size: 260px;
+  background-position: 100%;
+  background-position-x: 100%;
+  background-position-y: 48%;
+
+  background-repeat: no-repeat;
+}
+h1 {
+  margin: 0;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+.hashtag-header span {
+  font-size: 1.5rem;
+}
+.hashtag-header img {
+  width: 100%;
+  max-width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 1px solid wheat;
+  vertical-align: middle;
+}
+/* adjacent sibling selector - will select all img except 1st one */
+img + img {
+  margin-left: -1rem;
+}
+
+.hashtag-header img:hover {
+  transform: rotateX(1deg);
+  border: 1px solid rgb(255, 168, 8);
+}
