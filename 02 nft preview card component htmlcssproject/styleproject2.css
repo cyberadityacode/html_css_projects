@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(13, 26, 45);
+}
+
+.card{
+    width: 100%;
+    max-width: 310px;
+    height: 558px;
+    background-color: rgb(21, 39, 63);
+    position: fixed;
+    margin: auto;
+    inset: 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 14px 0px #3E5573;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+h3{
+    font-family: sans-serif;
+    color: rgb(234, 237, 240);
+}
+p{
+    color: #3E5573;
+}
+
+#eth{
+    color: #00FFF8;
+    font-weight: bold;
+    padding: 5px;
+}
+#days-left{
+    display: inline;
+    color: #748DAF ;
+    padding-left: 6.5rem;
+}
+
+hr{
+    color: #20324A;
+    border:  1px solid rgb(210 176 176 / 9%);
+    margin-top: 20px;
+}
+
+#image-avatar{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#image-avatar-text{
+    margin-top: -35px;
+    margin-left: 51px;
+}
+
+.name-bold{
+    font-weight: bolder;
+    color: white;
+    margin-left: 3px;
+}
