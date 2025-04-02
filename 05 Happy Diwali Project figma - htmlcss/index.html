@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&family=Salsa&family=Style+Script&display=swap"
+      rel="stylesheet"
+    />
+    <title>Happy Diwali</title>
+  </head>
+  <body>
+    <section class="hero-section">
+      <img src="images/design-5 1.png" class="jhalar" alt="frill" />
+
+      <div class="para-and-audio">
+        <p>
+          Hi <span id="receiver"></span>,<br />
+          You mean the world to me... So this Diwali, I made something for you!
+        </p>
+        <div class="audio-container">
+          <img src="icon/Iconsax/Bold/Vector.png" alt="" />
+          <span>&nbsp; Soulful Music</span>
+          <img
+            class="img-soulful-music"
+            src="icon/Iconsax/Bold/textalignjustifyright.svg"
+            alt=""
+          />
+          <audio
+            src="music/sitar-and-tanpura-indian-style-bgm-22000.mp3"
+            controls
+          ></audio>
+        </div>
+      </div>
+      <img class="deepak first-deepak" src="images/deepak 2.png" />
+      <img class="deepak second-deepak" src="images/deepak 2.png" />
+    </section>
+    <section class="laxmi-ganesha-section">
+      <div class="horizontal-divider">
+        <div class="hoizontal-line"></div>
+        <div class="horizontal-circle"></div>
+        <div class="horizontal-circle"></div>
+        <div class="horizontal-circle"></div>
+        <div class="hoizontal-line"></div>
+      </div>
+      <img
+        class="laxmi-ganesha-img"
+        src="images/lakshmi maa and ganesh ji 1.png"
+        alt=""
+      />
+      <h2>Wishing You a Blessed and Prosperous Deepawali</h2>
+      <div class="horizontal-divider">
+        <div class="hoizontal-line"></div>
+        <div class="horizontal-circle"></div>
+        <div class="horizontal-circle"></div>
+        <div class="horizontal-circle"></div>
+        <div class="hoizontal-line"></div>
+      </div>
+      <div class="white-card-container">
+        <div class="white-card">
+          <p>People say, “Diwali is the festival of lights.”</p>
+          <p>
+            You know what, I can feel the positivity and happiness. My goal is
+            to learn web development and I’m learning everyday, even today!
+          </p>
+        </div>
+        <img class="little-girl" src="images/little-girl 1.png" alt="" />
+      </div>
+      <div class="horizontal-divider">
+        <div class="hoizontal-line"></div>
+        <div class="horizontal-circle"></div>
+        <div class="horizontal-circle"></div>
+        <div class="horizontal-circle"></div>
+        <div class="hoizontal-line"></div>
+      </div>
+
+      <div class="laxmi-ganesha-card">
+        <img src="images/lakshmi.png" alt="" />
+        <img src="images/ganesh.png" alt="" />
+      </div>
+      <div class="thank-you-text">
+        <p>Happy Diwali and,</p>
+        <h2>Thank you for Everything...</h2>
+      </div>
+      <p class="my-name">Made with &#9829; by Aditya Dubey</p>
+    </section>
+
+    <script>
+      const receiverName = document.querySelector("#receiver");
+      const senderName = document.querySelector("#sender");
+      receiverName.innerText = new URLSearchParams(location.search).get(
+        "receiver"
+      );
+      senderName.innerText =
+        new URLSearchParams(location.search).get("sender") || "Aditya Dubey";
+    </script>
+  </body>
+</html>
