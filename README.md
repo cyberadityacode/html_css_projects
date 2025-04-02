@@ -5,6 +5,8 @@ This project is a web design implementation using **HTML** and **CSS**, created 
 ## 📌 Project Overview
 This project aims to translate a **Figma** design into a fully functional web layout using clean and responsive HTML and CSS.
 
+Figma link [https://www.figma.com/design/PM8JkpxJfHIQlMMexg1SNH/Diwali-Wishes?node-id=3-10&t=E9VwvxjyVkdj6kUE-0]
+
 ## 🚀 Technologies Used
 - **HTML5** - Structure the webpage
 - **CSS3** - Styling the layout
