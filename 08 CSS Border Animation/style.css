@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: Poppins;
+  color: #f0f0f0;
+}
+
+body {
+  min-height: 100vh;
+  background: #0b0d15;
+  color: #a2a5b3;
+  align-content: center;
+}
+
+h1{
+    color: white;
+}
+.parent-box {
+    margin: 0 auto;
+    padding: 2em;
+    width: 90%;
+    max-width: 300px;
+    min-width: 150px; 
+    min-height: 150px;  
+    max-height: auto; 
+    text-wrap: balance; 
+    background: #1c1f2b;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+@property --angle{
+    syntax: "<angle> ";
+    initial-value: 0deg;
+    inherits: false;
+}
+.parent-box::after, .parent-box::before{
+    
+    content:'';
+    position: absolute ;
+    height: 100%;
+    width: 100%;
+    /* background-image: conic-gradient(red,blue, green, teal ,red ) ; */
+    /* background-image: conic-gradient(from var(--angle), transparent 70%, blue ) ; */
+    background-image: conic-gradient(from var(--angle), transparent 0, blue, red, green ) ;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 1px;
+    border-radius: 10px;
+    animation: 3s spin linear infinite;
+}
+.parent-box::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+
+@keyframes spin{
+    from{
+    --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .parent-box {
+        padding: 1.5em;  
+        width: 95%;     
+        font-size: small;
+        
+    }
+}
