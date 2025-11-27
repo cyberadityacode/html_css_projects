@@ -3,7 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <input type="range" min="10" max="100" step="10" value="50" />
+
+    <input
+      type="range"
+      list="marks"
+      min="0"
+      max="100"
+      oninput="console.log(this.value)"
+    />
+    <datalist id="marks">
+      <option value="0"></option>
+      <option value="50"></option>
+      <option value="100"></option>
+    </datalist>
+
+    <input type="range" orient="vertical" />
+
+    <h3>Fieldset with legend</h3>
+
+    <fieldset>
+      <legend>Personal Info</legend>
+
+      <div>
+        <input type="text" placeholder="Username" />
+      </div>
+    </fieldset>
+  </body>
 </html>
