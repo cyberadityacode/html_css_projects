@@ -16,6 +16,12 @@
       html {
         scroll-behavior: smooth;
       }
+
+      img {
+        max-width: 500px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 8px;
+      }
     </style>
   </head>
 
@@ -69,5 +75,63 @@
 
     <p><a href="#abc">ID Access</a></p>
     <p aria-label="dollar sign">&dollar;</p>
+
+    <img
+      src="adityadubeydc.jpg"
+      alt="test"
+      width="250"
+      height="550"
+      title="DC Aditya Dubey"
+      loading="lazy"
+    />
+
+    <!-- When you add loading="lazy", the browser defers loading of the image until:
+
+It is close to the visible area of the page (viewport)
+
+Or the user scrolls down toward it -->
+
+    <!-- Now, Using different versions of Img for different screen size -->
+
+    <img
+      src="adityadubeydc.jpg"
+      srcset="adityadubeydc.jpg 1x, golden_kailash.jpg 2x"
+      alt="high DPI example"
+    />
+
+    <p>Changing picture on different screen size</p>
+    <!--srcset gives the browser images of different widths:  -->
+    <!-- “Use the small image on mobile.
+Use the big image on desktop.” -->
+    <img
+      src="adityadubeydc.jpg"
+      width="250px"
+      height="250px"
+      srcset="adityadubeydc.jpg 800w, golden_kailash.jpg 1200w"
+      sizes="(max-width: 600px) 100vw, 900px"
+      alt="Responsive image switching"
+    />
+
+    <p>Responsive Image</p>
+    <img src="adityadubeydc.jpg" alt="aditya dubey dc" / width="100%"
+    height="auto">
+
+    <h3>Co-ordinate Map image</h3>
+
+    <img
+      src="adityadubeydc.jpg"
+      usemap="#map"
+      width="250"
+      height="150"
+      alt=""
+    />
+    <map name="map">
+      <area
+        shape="rect"
+        coords="0,0,50,150"
+        href="www.google.com"
+        alt="google map"
+      />
+    </map>
   </body>
 </html>
