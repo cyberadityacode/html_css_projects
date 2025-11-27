@@ -12,6 +12,10 @@
         font-style: normal;
         font-variation-settings: "wdth" 100;
       }
+
+      html {
+        scroll-behavior: smooth;
+      }
     </style>
   </head>
 
@@ -25,7 +29,7 @@
     </p>
 
     <p>Highlight <mark>This Text</mark> for testing.</p>
-    <p>
+    <p id="abc">
       Del for marking text that has been <del> semantically deleted </del>from a
       document, especially when indicating content changes or revisions. Avoid
       using strike <strike> as </strike> it is deprecated and lacks semantic
@@ -43,5 +47,27 @@
     </ol>
 
     <p>tab index <a href="www.google.com" tabindex="-1">Google</a></p>
+
+    <a href="test.html" rel="preload" title="hover to see test.html">TEST</a>
+    <a
+      href="../01 qrcode htmlcssprj/project1.html"
+      rel="prefetch"
+      title="hover to see test.html"
+      >TEST Prefetch</a
+    >
+    <p>
+      When website links to
+      <a
+        href="https://www.google.com"
+        rel="external"
+        title="External Link:Google.com"
+        target="_blank"
+        >external</a
+      >
+      site
+    </p>
+
+    <p><a href="#abc">ID Access</a></p>
+    <p aria-label="dollar sign">&dollar;</p>
   </body>
 </html>
