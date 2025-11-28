@@ -1,0 +1,21 @@
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #ccc; */
+    background-color: hsl(0, 0%, 94%);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvr0dcaall2rC95t_gNJoANG4ANawWMuBh3Q&s');
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvr0dcaall2rC95t_gNJoANG4ANawWMuBh3Q&s'), url('https://png.pngtree.com/png-clipart/20241129/original/pngtree-cute-ganesha-for-happy-ganesh-chaturthi-festival-india-png-image_17420924.png'); */
+
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; horizontal repeat */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: 100% 100%; *horizontally and vertically */
+
+    background-position: top right;
+    /* background-position: left right; */
+    /* background-position: bottom right; */
+    /* background-position: bottom left; */
+    /* background-blend-mode: hard-light; */
+   
+} 
