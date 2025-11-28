@@ -45,6 +45,26 @@ body {
 /*? for 1 rem = we can specify the font size of our will */
 /* we need 1rem = 10px, it makes our life easy  */
 
+
+
+html{
+  
+  /* font-size: 10px;  */
+  /* since 1px = 6.25% */
+  font-size: 62.5%;
+}
+/* kuch esa karo ki 1rem = 10px */
+
+h1{
+  font-size: 5.4rem;
+}
+p{
+  font-size: 3.6rem;
+}
+li {
+  font-size: 1.2rem;
+}
+
 /** ------------------------------------- -->
 /**  INTERVIEW QUESTIONS
 /** ---------------------------------------- -->
