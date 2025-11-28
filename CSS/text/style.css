@@ -55,6 +55,22 @@ body {
   width: 50%;
 }
 
+h1{
+  /* text-align: center; */
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-color: brown;
+  text-decoration-thickness: 10px;
+  text-decoration-style: dotted;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 5px red;
+}
+
+p{
+  letter-spacing: 0.1rem;
+  word-spacing: 0.4rem;
+  line-height: 1.5;
+}
 /** ------------------------------------- -->
 /**  INTERVIEW QUESTIONS
 /** ---------------------------------------- --> */
@@ -64,3 +80,10 @@ body {
 
 /*? 2: How can you create drop caps (initial letter styling) in CSS? */
 /* You can create drop caps using the ::first-letter pseudo-element in CSS.  */
+
+p::first-letter{
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 800;
+}
+
