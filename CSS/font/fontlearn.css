@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap");
+
+/* to implement custom font from file */
+
+@font-face {
+    font-family: "fortune"  ;
+    src: url('./font/Fortune.otf');
+}
+body {
+    background-color: hsl(0, 0%, 94%);
+    display: grid;
+    place-items: center;
+}
+
+.hero-section{
+    width: 50%;
+}
+
+h1{
+    font-weight: 900;
+    font-variant: small-caps;
+    font-family: "fortune";
+}
+h1, p{
+    /* font-family:"jost"; */
+    /* font-family: "Urbanist" , sans-serif; */
+}
+
+p{
+    font-weight: 300;
+    font-style: italic;
+}
