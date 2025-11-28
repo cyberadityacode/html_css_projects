@@ -58,7 +58,7 @@ p {
 .section-border {
   width: 1000px;
   color: #fff;
-  /* background-color: #5e9de9; */
+  background-color: #5e9de9;
   /*?  border here  */
   /* border: 15px solid #003180; */
 
@@ -92,7 +92,7 @@ p {
 
 /* Creating Custom Radius for Each Corner:  */
 /* top-left | top-right | bottom-right | bottom-left */
-/*? border-radius: 15px 5px 10px 20px; */
+/* border-radius: 15px 5px 10px 20px; */
 
 /** ------------------------------------- -->
 /** NOTES + TIPS

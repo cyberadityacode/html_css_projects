@@ -1,0 +1,15 @@
+.section-border{
+    /* border: 2px solid black; */
+    border: 2px solid black;
+    border-radius: 2px 10px 10px 10px;
+    padding: 10px 4px 3px 10px;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: #539de5;
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(to right top, red,green,blue
+    );
+}
