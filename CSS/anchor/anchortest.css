@@ -1,0 +1,12 @@
+a:hover{
+    text-decoration-line: none;
+}
+
+a:active{
+    font-size: larger;
+}
+
+a, a:visited {
+    color: #007bff; 
+    text-decoration: none;
+}
