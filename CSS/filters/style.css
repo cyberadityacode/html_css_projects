@@ -77,7 +77,7 @@ img {
   /* filter: grayscale(); */
   filter: blur(4px);
   /* filter: invert(); */
-  filter: brightness(20%);
+  filter: brightness(20%  );
 }
 
 /** ------------------------------------- -->
