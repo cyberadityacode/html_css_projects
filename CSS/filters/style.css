@@ -73,6 +73,11 @@ img {
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   /*-webkit-filter: opacity(1);
   */
+  /* filter: opacity(0.9); */
+  /* filter: grayscale(); */
+  filter: blur(4px);
+  /* filter: invert(); */
+  filter: brightness(20%);
 }
 
 /** ------------------------------------- -->
