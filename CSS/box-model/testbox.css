@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 800px;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-1{
+    background-color: #0f2c59;
+    color: #fff;
+    border: 20px solid #337ccf;
+    padding: 50px;
+}

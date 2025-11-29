@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(red,yellow); */
+    /* background-image: linear-gradient(to right, red,yellow); */
+    /* background-image: linear-gradient(to left, red,yellow); */
+    /* background-image: linear-gradient(to top, red,yellow); */
+    /* background-image: linear-gradient(90deg, red,yellow); */
+    /* background-image: linear-gradient(180deg, red,yellow); */
+    /* background-image: linear-gradient(270deg, red,yellow); */
+    /* background-image: linear-gradient(to bottom right, red,yellow); */
+    /* background-image: linear-gradient(to top left, red,yellow); */
+    /* background-image: repeating-linear-gradient(45deg, #004d7a, #00bf72 45px); */
+    /* background-image: radial-gradient(red,yellow, green); */
+    background-image: radial-gradient(ellipse, red 20%, yellow 40%,  green 40%);
+
+
+
+
+
+
+
+
+
+}

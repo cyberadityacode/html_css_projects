@@ -1,0 +1,12 @@
+.hero-section{
+    display: flex;
+    border: 2px solid currentColor;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+}
+
+button{
+    padding: 10px;
+    margin-left: 10px;
+}
