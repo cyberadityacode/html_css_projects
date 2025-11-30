@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 5rem 10rem;
+}
+
+.parent-section{
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    position: relative;
+    left: 200px;
+}
+
+.child{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to right, #93edc7, #1cd8d2);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+}
+
+.child:nth-child(2),
+.child:nth-child(4) {
+  background: linear-gradient(to right, #3cd3ad, #4cb8c4);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.child-1{
+    left: 0;
+    top: 0;
+}
+
+.child-2{
+    top: 0;
+    right: 0;
+}
+
+.child-3{
+    bottom: 0;
+    left: 0;
+}
+
+.child-4{
+    bottom: 0;
+    right: 0;
+}
+
+.child-5{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
