@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    place-items: center;
+}
+
+.main-section{
+    width: 30rem;
+    height: auto;
+    border: 2px solid red;
+    padding: 10px;
+  
+}
+.main-section h1{
+    position: relative;
+}
+
+.main-section h1::before{
+    content: "Hello ";
+    position: absolute;
+    top: -15px;
+    font-size: medium;
+    letter-spacing: 3px;
+    background-color: yellow;
+    border: 1px solid currentColor;
+}
+
+
+.main-section p::after{
+    content: 'lorem';
+}
