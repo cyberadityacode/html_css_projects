@@ -8,12 +8,17 @@ body{
     padding: 5rem 10rem;
 }
 
+.navigation{
+    z-index: 10;
+}
+
 .parent-section{
     width: 500px;
     height: 500px;
     background-color: brown;
     position: relative;
     left: 200px;
+    z-index: 1;
 }
 
 .child{
