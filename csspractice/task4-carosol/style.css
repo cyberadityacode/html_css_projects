@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container-image{
+    width: 60vw;
+    height: 50rem;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-image: url("https://images.pexels.com/photos/208321/pexels-photo-208321.jpeg");
+    background-size: cover;
+    animation: gallery 20s linear infinite;
+}
+
+@keyframes gallery {
+    0% {
+        background-image: url("https://media.istockphoto.com/id/2225809004/photo/classical-chinese-temple-halls-and-courtyards-under-clear-daylight.jpg?s=612x612&w=is&k=20&c=sow5wWlKvE77FwINGFAop5nR08WcPSmmHVIYc-of-LA=");
+    }
+
+    33% {
+        background-image: url("https://media.istockphoto.com/id/1766041911/photo/nan-lian-garden-chinese-classical-garden-golden-pavilion-of-perfection-in-nan-lian-garden.jpg?s=612x612&w=is&k=20&c=al7cVZa-x-4zwEW5xjLjZ0GKxkl4v40KkovaJGvaBPk=");
+    }
+
+    66% {
+        background-image: url("https://media.istockphoto.com/id/1766041897/photo/nan-lian-garden-chinese-classical-garden-golden-pavilion-of-perfection-in-nan-lian-garden.jpg?s=612x612&w=is&k=20&c=ZsGuRtByoUj3C1VZnpwP8ZR5T_hKTFQoMWUP6--D44s=");
+    }
+}
