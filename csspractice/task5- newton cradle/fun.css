@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191825;
+}
+
+.base-cradle{
+    width: 50rem;   
+    height: 50rem;
+    border: 1rem solid #865dff;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.base-cradle .kaanta{
+    width: 100%;
+    height: 1rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+    animation: ghoomo 5s linear infinite;
+}
+
+@keyframes ghoomo {
+    0%{
+        rotate: 0deg;
+    }
+    20%{
+        rotate: 20deg;
+    }
+    40%{
+        rotate: 60deg;
+    }
+    60%{
+        rotate: 100deg;
+    }
+    80%{
+        rotate: 160deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
