@@ -47,7 +47,6 @@ div{
 .cradle div:first-child{
     animation: left-swing 2s linear infinite ;
     transform-origin: top left;
-
 }
 
 .cradle div:last-child{
