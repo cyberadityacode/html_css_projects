@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #191825;
+    /* 1st trick */
+    /* position: relative; */
+
+    /* 2nd flexbox */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    /* 3rd grid */
+    /* display: grid; */
+    /* place-items: center; */
+
+    /* 4th grid and flex prop*/
+
+    /* display: grid;
+    justify-content: center;
+    align-items: center; */
+
+    /* 5th flex and margin */
+    display: flex;
+
+}
+
+.child{
+    width: 400px;
+    height: 400px;
+    background-color: #865dff;
+    /* 1st way
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+
+    /* 5th way */
+    margin: auto;
+}
